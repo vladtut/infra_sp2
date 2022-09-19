@@ -4,6 +4,16 @@
 
 Этот проект предоставляет доступ к api проекта api_yamdb, который позволяет оставлять отзывы и оценки к произведениям мирового искусства.
 
+## использованные технологии:
+ * Python3
+ * DRF (Django REST framework)
+ * Django ORM
+ * Docker
+ * Gunicorn
+ * nginx
+ * Яндекс Облако(Ubuntu 18.04)
+ * PostgreSQL
+ 
 ## Примеры работы с API:
 
 ### Работа с моделью AUTH:
@@ -195,3 +205,5 @@ POST http://api.example.org/api/v1/users/
 ```
 GET http://api.example.org/api/v1/users/{username}/
 ```
+# АВТОРЫ:
+работы выыполнял vlad, а его тимлидом был anton 
